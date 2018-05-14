@@ -1,31 +1,31 @@
 public class Teacher {
 
-    private String fname;
-    private String lname;
-    private int grade_level;
-    private Classroom class_room;
+    private String Fname;
+    private String Lname;
+    private int grade;
+    private Classroom classroom;
 
     public Teacher(String first, String last, int grade, Classroom ID) {
-        this.fname=first;
-        this.lname=last;
-        this.grade_level=grade;
-        this.class_room=ID;
+        this.Fname=first;
+        this.Lname=last;
+        this.grade=grade;
+        this.classroom=ID;
     }
 
     public String getFname() {
-        return fname;
+        return Fname;
     }
 
     public String getLname() {
-        return lname;
+        return Lname;
     }
 
     public int getGrade_level() {
-        return grade_level;
+        return grade;
     }
 
     public Classroom getClassroom() {
-        return class_room;
+        return classroom;
     }
 
     public void makeBadge(){
