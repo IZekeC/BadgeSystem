@@ -3,13 +3,13 @@ public class Teacher {
     private String fname;
     private String lname;
     private int grade_level;
-    private int classroom;
+    private Classroom class_room;
 
-    public Teacher(String first, String last, int grade, int ID) {
+    public Teacher(String first, String last, int grade, Classroom ID) {
         this.fname=first;
         this.lname=last;
         this.grade_level=grade;
-        this.classroom=ID;
+        this.class_room=ID;
     }
 
     public String getFname() {
@@ -24,8 +24,8 @@ public class Teacher {
         return grade_level;
     }
 
-    public int getClassroom() {
-        return classroom;
+    public Classroom getClassroom() {
+        return class_room;
     }
 
     public void makeBadge(){
@@ -33,9 +33,6 @@ public class Teacher {
     }
 
     public void giveBadge(Student s){
-
-    }
-    public void accessClass(){
 
     }
 }
