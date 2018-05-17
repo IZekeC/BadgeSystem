@@ -8,8 +8,6 @@ public class Grade {
     private BadgeContainer badgeExt;
 
     public Grade(char grade){
-        this.badgeAca = new ArrayList<>();
-        this.badgeExt = new ArrayList<>();
         this.grade_num=grade;
     }
 }
