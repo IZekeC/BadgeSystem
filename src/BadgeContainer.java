@@ -1,10 +1,15 @@
+/*
+    This is a container of badges
+ */
+
 import java.util.ArrayList;
 
-public class Academic {
+public class BadgeContainer {
 
     private ArrayList<Badge> badges;
 
-    public Academic() {
+    public BadgeContainer() {
         this.badges = new ArrayList<>();
     }
+
 }
