@@ -7,4 +7,8 @@ public class Admin {
 
     private Admin() {
     }
+
+    public void viewPendingBadges() {
+        //View the pending badges in BadgeDataBase and confirm them
+    }
 }

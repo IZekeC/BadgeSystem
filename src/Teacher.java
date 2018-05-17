@@ -4,12 +4,14 @@ public class Teacher {
     private String l_name;
     private char grade;
     private Classroom classroom;
+    private Admin admin;
 
     public Teacher(String first, String last, char grade, Classroom classroom) {
         this.f_name = first;
         this.l_name = last;
         this.grade = grade;
         this.classroom = classroom;
+        this.admin = Admin.getInstance();
     }
 
     public String getFirstName() {
