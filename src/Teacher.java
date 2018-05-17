@@ -2,10 +2,10 @@ public class Teacher {
 
     private String f_name;
     private String l_name;
-    private int grade;
+    private char grade;
     private Classroom classroom;
 
-    public Teacher(String first, String last, int grade, Classroom classroom) {
+    public Teacher(String first, String last, char grade, Classroom classroom) {
         this.f_name = first;
         this.l_name = last;
         this.grade = grade;
@@ -20,7 +20,7 @@ public class Teacher {
         return l_name;
     }
 
-    public int getGrade() {
+    public char getGrade() {
         return grade;
     }
 
