@@ -4,17 +4,12 @@ import java.util.ArrayList;
 
 public class Grade {
     private int grade_num;
-    private ArrayList<Academic> badgeAca;
-    private ArrayList<ExtraCir> badgeExt;
+    private BadgeContainer badgeAca;
+    private BadgeContainer badgeExt;
 
     public Grade(char grade){
-        ArrayList academic_badge = new ArrayList<Academic>();
-        ArrayList extra_badge = new ArrayList<ExtraCir>();
-        this.badgeAca = academic_badge;
-        this.badgeExt = extra_badge;
+        this.badgeAca = new ArrayList<>();
+        this.badgeExt = new ArrayList<>();
         this.grade_num=grade;
-
     }
-
-
 }
