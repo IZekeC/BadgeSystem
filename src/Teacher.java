@@ -1,26 +1,26 @@
 public class Teacher {
 
-    private String Fname;
-    private String Lname;
-    private int grade;
+    private String f_name;
+    private String l_name;
+    private char grade;
     private Classroom classroom;
 
-    public Teacher(String first, String last, int grade, Classroom ID) {
-        this.Fname=first;
-        this.Lname=last;
-        this.grade=grade;
-        this.classroom=ID;
+    public Teacher(String first, String last, char grade, Classroom classroom) {
+        this.f_name = first;
+        this.l_name = last;
+        this.grade = grade;
+        this.classroom = classroom;
     }
 
-    public String getFname() {
-        return Fname;
+    public String getFirstName() {
+        return f_name;
     }
 
-    public String getLname() {
-        return Lname;
+    public String getLastName() {
+        return l_name;
     }
 
-    public int getGrade_level() {
+    public char getGrade() {
         return grade;
     }
 

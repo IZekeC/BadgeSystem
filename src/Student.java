@@ -7,12 +7,12 @@ public class Student
     private String f_name;
     private String l_name;
     private String stud_id;
-    private int grade;
+    private char grade;
     private Classroom classroom;
     private Backpack backpack;
 
     //If a student does not have a backpack i.e, never been entered into the program before
-    public Student(String f_name, String l_name, String stud_id, int grade, Classroom classroom) {
+    public Student(String f_name, String l_name, String stud_id, char grade, Classroom classroom) {
         this.f_name = f_name;
         this.l_name = l_name;
         this.stud_id = stud_id;
@@ -21,7 +21,7 @@ public class Student
     }
 
     //If a student has a backpack i.e, has been entered into the program before
-    public Student(String f_name, String l_name, String stud_id, int grade, Classroom classroom, Backpack backpack) {
+    public Student(String f_name, String l_name, String stud_id, char grade, Classroom classroom, Backpack backpack) {
         this.f_name = f_name;
         this.l_name = l_name;
         this.stud_id = stud_id;
@@ -42,7 +42,7 @@ public class Student
         return stud_id;
     }
 
-    public int getGrade() {
+    public char getGrade() {
         return grade;
     }
 
